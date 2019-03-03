@@ -3,13 +3,13 @@
 
 """ Python script which displays lyrics (from Genius.com) to the currently scrobbling song on Last.fm in your terminal.
 
-Author: Hendrik "degrips" Matvejev
-Website: https://gitlab.com/degrips/lastfm-lyrics
+Author: Hendrik Matvejev
+Website: https://github.com/hendrimat/lastfm-lyrics
 License: GPL-3.0
 Python 3
 
 Usage:
-    get api keys from last.fm and genius (it doesn't matter what you write to get the keys)
+    get api keys from last.fm and genius
     insert api keys and username into the script
     execute script '$ python PATH/TO/SCRIPT'
 """

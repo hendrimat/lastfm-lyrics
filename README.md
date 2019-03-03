@@ -1,18 +1,19 @@
 # Last.fm lyrics
-Python script which displays lyrics (from Genius.com) to the currently scrobbling song on Last.fm in your terminal.  
+Python script which displays lyrics (from Genius.com) to the currently scrobbling song in your terminal.
 
-This can be used with any music player that has scrobbling support.
+## Requirements
+Python 3
+[LyricsGenius](https://github.com/johnwmillr/LyricsGenius)
 
-To get lyrics from genius, you need to install johnwmillr's [LyricsGenius](https://github.com/johnwmillr/LyricsGenius) python wrapper.  
+## Setup
+Before using this package you'll need to sign up for a (free) account that authorizes access to [the Genius API](http://genius.com/api-clients). The Genius account provides a `client_access_token` that is required by the package.
+You also need to create an [API account](https://www.last.fm/api/account/create) on Last.fm to get an API key.
 
-I used code from 0nse's [Now Playing](https://github.com/0nse/now_playing) script to get song information from Last.fm.  
+## Usage
+Can be used with any music player that has scrobbling support.
 
-# Usage
-1. Get api keys from [Last.fm](https://www.last.fm/api/account/create) and [Genius](https://genius.com/api-clients/new).  
-It doesn't matter what you write to get the keys.  
+1. Insert your Last.fm username and API keys into the script
+2. Execute the script in your terminal '$ python PATH/TO/SCRIPT'
 
-2. Insert api keys and username into the script.  
-
-3. Install johnwmillr's [LyricsGenius](https://github.com/johnwmillr/LyricsGenius) python wrapper
-
-4. Execute script '$ python PATH/TO/SCRIPT'  
+## Credit
+[0nse](https://github.com/0nse)'s [Now Playing](https://github.com/0nse/now_playing) script is used to get song information from Last.fm.
